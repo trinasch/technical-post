@@ -58,12 +58,12 @@ The screen-spanning hero image doesn’t just present file size / slow to load c
   <img src="beach_1240w.jpeg" alt="boy do I wish I was here right now">
 </picture>
 ```
-![responsive crop example](technical-post/beach_responsive-sample.png)
+![responsive crop example](https://raw.githubusercontent.com/trinasch/technical-post/master/beach_responsive-sample.png)
 
 ### #3 - Serve just enough pixels
 One step that should always be taken with your website images is to compress them.  Compression reduces the file size for faster loading, often with little visible change between the original and the compressed image. My compression tool of choice is [ImageOptim](https://imageoptim.com/) because it is so drag-n-drop easy. 
 
-With [WebPageTest](https://www.webpagetest.org/) I evaluated the results of compressing images in the two previous projects:
+With [WebPageTest](https://www.webpagetest.org/), I evaluated the results of compressing images in the two previous projects:
 
 ##### I compressed the _beach project_ image files by 10%:
 
