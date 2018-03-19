@@ -1,6 +1,6 @@
 # A Modern Approach to Responsive Images
 
-## The one constant is change. Is that how the saying goes? 
+**The one constant is change. Is that how the saying goes?**
 Well, let’s agree that it does and take a moment to consider how much has evolved in the world of responsive web design. Yesterday's idea has become today's standard and tomorrow's best practice (which will eventually be ancient history, but let’s not dwell on that just yet).
 
 ### Here’s a little history for you...
