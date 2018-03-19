@@ -58,7 +58,7 @@ The screen-spanning hero image doesn’t just present file size / slow to load c
   <img src="beach_1240w.jpeg" alt="boy do I wish I was here right now">
 </picture>
 ```
-##### Notice how the crop on the third image is different than the first two? That's ```<picture>``` at work.
+Notice how the crop on the third image is different than the first two? That's ```<picture>``` at work.
 
 ![responsive crop example](https://raw.githubusercontent.com/trinasch/technical-post/master/beach_responsive-sample.png)
 
@@ -67,20 +67,19 @@ One step that should always be taken with your website images is to compress the
 
 With [WebPageTest](https://www.webpagetest.org/), I evaluated the results of compressing images in the two previous projects:
 
-##### I compressed the _beach project_ image files by 10%:
+##### I compressed the _beach project_ image files by 10% to _slightly_ improve page load speed:
 
 Website | Page load speed | Bytes in
 --- | --- | ---
 [Beach](https://trinasch.github.io/beach/index.html) | 1.340s | 74KB
-[Beach (low res)](https://trinasch.github.io/beach-low-res/index.html) | 1.313s | 69KB
+[Beach (low res)](https://trinasch.github.io/beach-low-res/index.html) | **1.313s** | 69KB
 
-##### I compressed the _quilt project_ image files by 60%:
+##### I compressed the _quilt project_ image files by 60% to _significantly_ improve page load speed:
 
 Website | Page load speed | Bytes in
 --- | --- | ---
-[Beach](https://trinasch.github.io/quilt/index.html) | 4.730s | 677KB
-
-[Beach (low res)](https://trinasch.github.io/quilt-low-res/index.html) | *2.320s* | 237KB
+[Quilt](https://trinasch.github.io/quilt/index.html) | 4.730s | 677KB
+[Quilt (low res)](https://trinasch.github.io/quilt-low-res/index.html) | **2.320s** | 237KB
 
 ### Wrap it up
 And that’s it, my best three tips for a **thoroughly modern approach to responsive images.** Together, these best practices can help you serve up images appropriately on different device sizes and reduce files sizes to increase page load speed. Go ahead, give it a try!
