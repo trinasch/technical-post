@@ -1,6 +1,6 @@
 # A Modern Approach to Responsive Images
 
-##### The one constant is change. Is that how the saying goes? 
+## The one constant is change. Is that how the saying goes? 
 Well, let’s agree that it does and take a moment to consider how much has evolved in the world of responsive web design. Yesterday's idea has become today's standard and tomorrow's best practice (which will eventually be ancient history, but let’s not dwell on that just yet).
 
 ### Here’s a little history for you...
@@ -28,7 +28,7 @@ _Modern responsive images_ must…
 
 Following are three best practices for _a modern approach to responsive images._
 
-### #1 - Make sure it scales
+## #1 - Make sure it scales
 That 2MB hero image on your site that loads fine on desktop, will be slow to load on mobile. To minimize file size and load time on smaller devices, you can utilize HTML elements such as ```<srcset>``` and ```<size>``` to display an appropriately sized image for mobile, tablet, and desktop. 
 
 ##### Example ([code sample](https://github.com/trinasch/quilt/blob/master/index.html) | [preview](https://trinasch.github.io/quilt/index.html)):
@@ -46,7 +46,7 @@ src="quilt_1240w.jpeg"
 alt="quilted">
 ```
 
-### #2 - Crop and position images appropriately per device
+## #2 - Crop and position images appropriately per device
 The screen-spanning hero image doesn’t just present file size / slow to load challenges. It also becomes harder to emphasize details in the photo as it scales down on smaller devices. Enter the HTML element of ```<picture>``` which allows you to define alternate images to be displayed. This allows you to substitute a cropped image on smaller devices and bring those otherwise lost details back into focus.
 
 ##### Example ([code sample](https://github.com/trinasch/beach/blob/master/index.html) | [preview](https://trinasch.github.io/beach/index.html)):
@@ -62,7 +62,7 @@ Notice how the crop on the third image is different than the first two? That's `
 
 ![responsive crop example](https://raw.githubusercontent.com/trinasch/technical-post/master/beach_responsive-sample.png)
 
-### #3 - Serve just enough pixels
+## #3 - Serve just enough pixels
 One step that should always be taken with your website images is to compress them.  Compression reduces the file size for faster loading, often with little visible change between the original and the compressed image. My compression tool of choice is [ImageOptim](https://imageoptim.com/) because it is so drag-n-drop easy. 
 
 With [WebPageTest](https://www.webpagetest.org/), I evaluated the results of compressing images in the two previous projects:
@@ -81,7 +81,7 @@ Website | Page load speed | Bytes in
 [Quilt](https://trinasch.github.io/quilt/index.html) | 4.730s | 677KB
 [Quilt (low res)](https://trinasch.github.io/quilt-low-res/index.html) | **2.320s** | 237KB
 
-### Wrap it up
+## Wrap it up
 And that’s it, my best three tips for a **thoroughly modern approach to responsive images.** Together, these best practices can help you serve up images appropriately on different device sizes and reduce files sizes to increase page load speed. Go ahead, give it a try!
 
 _Do you have a technique that you like to use for your projects? Tell me about in the comments!_
