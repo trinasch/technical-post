@@ -58,6 +58,8 @@ The screen-spanning hero image doesn’t just present file size / slow to load c
   <img src="beach_1240w.jpeg" alt="boy do I wish I was here right now">
 </picture>
 ```
+##### Notice how the crop on the third image is different than the first two? That's ```<picture>``` at work.
+
 ![responsive crop example](https://raw.githubusercontent.com/trinasch/technical-post/master/beach_responsive-sample.png)
 
 ### #3 - Serve just enough pixels
