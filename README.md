@@ -1,7 +1,7 @@
 #A Modern Approach to Responsive Images
 
 #####The one constant is change. Is that how the saying goes? 
-Well, let’s agree that it does and take a moment to consider how much has evolved in the world of responsive web design. Yesterday's idea has become today's standard and tomorrow's best practice (which will eventually be history, but let’s not dwell on that just yet).
+Well, let’s agree that it does and take a moment to consider how much has evolved in the world of responsive web design. Yesterday's idea has become today's standard and tomorrow's best practice (which will eventually be ancient history, but let’s not dwell on that just yet).
 
 ###Here’s a little history for you...
 
@@ -17,7 +17,7 @@ Well, let’s agree that it does and take a moment to consider how much has evol
 As the concept of responsive web design gained traction, the idea of flexible and adaptive images played a central role. Responsive images came to mean the practice of serving appropriately sized images to each device, and standards began to emerge. 
 
 ###But wait! 
-Just as the technology has evolved, so have industry expectations for best practices in responsive web design. It’s not enough to serve up different-sized images on mobile, tablet, or desktop. **Truly responsive image solutions require a thoroughly modern approach.**
+Just as the technology has evolved, so have industry expectations for best practices in responsive web design. It’s not enough to serve up different-sized images on mobile, tablet, or desktop. _Truly responsive image solutions require a thoroughly modern approach._
 
 _Modern responsive images_ must…
 
@@ -26,7 +26,7 @@ _Modern responsive images_ must…
 -	Effectively balance file size with image quality
 -	Support speedy page loads, especially on smaller devices
 
-Following are three best practices for **_a modern approach to responsive images._**
+Following are three best practices for _a modern approach to responsive images._
 
 ### #1 - Make sure it scales
 That 2MB hero image on your site that loads fine on desktop, will be slow to load on mobile. To minimize file size and load time on smaller devices, you can utilize HTML elements such as ```<srcset>``` and ```<size>``` to display an appropriately sized image for mobile, tablet, and desktop. 
@@ -66,16 +66,18 @@ With [WebPageTest](https://www.webpagetest.org/) I evaluated the results of comp
 
 #####I compressed the _beach project_ image files by 10%:
 
-Website   | Page load speed   | Bytes in
-[Beach](https://trinasch.github.io/beach/index.html)  | 1.340s  | 74KB
-[Beach (low res)](https://trinasch.github.io/beach-low-res/index.html)  | 1.313s  | 69KB
+Website | Page load speed | Bytes in
+--- | --- | ---
+[Beach](https://trinasch.github.io/beach/index.html) | 1.340s | 74KB
+[Beach (low res)](https://trinasch.github.io/beach-low-res/index.html) | 1.313s | 69KB
 
 #####I compressed the _quilt project_ image files by 60%:
 
-Website   | Page load speed   | Bytes in
-[Beach](https://trinasch.github.io/quilt/index.html)  | 4.730s   | 677KB
+Website | Page load speed | Bytes in
+--- | --- | ---
+[Beach](https://trinasch.github.io/quilt/index.html) | 4.730s | 677KB
 
-[Beach (low res)](https://trinasch.github.io/quilt-low-res/index.html)  | *2.320s*  | 237KB
+[Beach (low res)](https://trinasch.github.io/quilt-low-res/index.html) | *2.320s* | 237KB
 
 ###Wrap it up
 And that’s it, my best three tips for a **thoroughly modern approach to responsive images.** Together, these best practices can help you serve up images appropriately on different device sizes and reduce files sizes to increase page load speed. Go ahead, give it a try!
