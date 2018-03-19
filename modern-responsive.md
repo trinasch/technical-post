@@ -19,7 +19,7 @@ As the concept of responsive web design gained traction, the idea of flexible an
 ### But wait! 
 Just as the technology has evolved, so have industry expectations for best practices in responsive web design. It’s not enough to serve up different-sized images on mobile, tablet, or desktop. _Truly responsive image solutions require a thoroughly modern approach._
 
-_Modern responsive images_ must…
+##### Modern responsive images must…
 
 -	Display at sizes appropriate to device
 -	Convey visual meaning no matter the device size
